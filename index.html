@@ -207,7 +207,15 @@
           <h2 class="second-header">Our team</h2>
           <ul class="list team-list">
             <li class="team-back">
-              <img src="./images/photo-mark.jpg" alt="photo-mark" width="264" />
+              <img
+                srcset="
+                  ./images/photo-mark.jpg    1x,
+                  ./images/photo-mark-2x.jpg 2x
+                "
+                src="./images/photo-mark.jpg"
+                alt="photo-mark"
+                width="264"
+              />
               <div class="team-text">
                 <h3 class="team-name">Mark Guerrero</h3>
                 <p class="team-description">Product Designer</p>
@@ -242,7 +250,12 @@
               </div>
             </li>
             <li class="team-back">
-              <img src="./images/photo-tom.jpg" alt="photo-tom" width="264" />
+              <img
+                srcset="./images/photo-tom.jpg 1x, ./images/photo-tom-2x.jpg 2x"
+                src="./images/photo-tom.jpg"
+                alt="photo-tom"
+                width="264"
+              />
               <div class="team-text">
                 <h3 class="team-name">Tom Ford</h3>
                 <p class="team-description">Frontend Developer</p>
@@ -279,6 +292,10 @@
             </li>
             <li class="team-back">
               <img
+                srcset="
+                  ./images/photo-camila.jpg    1x,
+                  ./images/photo-camila-2x.jpg 2x
+                "
                 src="./images/photo-camila.jpg"
                 alt="photo-camila"
                 width="264"
@@ -318,6 +335,10 @@
             </li>
             <li class="team-back">
               <img
+                srcset="
+                  ./images/photo-daniel.jpg    1x,
+                  ./images/photo-daniel-2x.jpg 2x
+                "
                 src="./images/photo-daniel.jpg"
                 alt="photo-daniel"
                 width="264"

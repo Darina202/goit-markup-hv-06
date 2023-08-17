@@ -17,6 +17,11 @@
   .footer-reg-input {
     width: 398px;
   }
+  /*------------PORTFOLIO-----------*/
+  .cards-names {
+    font-size: 20px;
+  }
+
   /*------------BACKDROP-----------*/
   .modal {
     width: 392px;
@@ -42,6 +47,7 @@
   .menu-open-btn {
     display: none;
   }
+
   .current::after {
     content: '';
     display: block;
@@ -55,7 +61,9 @@
   }
   .menu-contacts {
     display: flex;
+    gap: 12px;
   }
+
   /*------------HERO-----------*/
   .hero-name {
     font-size: 56px;
@@ -134,6 +142,27 @@
   }
   .footer-reg-input {
     width: 264px;
+  }
+  /*------------PORTFOLIO-----------*/
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .menu-list {
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+  .list-btn {
+    padding: 12px 24px;
+  }
+  .cards-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .cards {
+    row-gap: 72px;
+  }
+  .list-container {
+    max-width: 766px;
   }
   /*------------BACKDROP-----------*/
   .modal {
@@ -254,5 +283,18 @@
   .footer-reg-input {
     opacity: 1;
   }
-  /*------------BACKDROP-----------*/
+  /*------------PORTFOLIO-----------*/
+  .portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+  .cards-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .cards {
+    row-gap: 48px;
+  }
+  .list-container {
+    max-width: 1158px;
+  }
 }
