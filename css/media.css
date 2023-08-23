@@ -48,6 +48,13 @@
     display: none;
   }
 
+  .contacts {
+    display: block;
+  }
+  .menu-contacts {
+    display: flex;
+    gap: 12px;
+  }
   .current::after {
     content: '';
     display: block;
@@ -59,11 +66,6 @@
     border-radius: 2px;
     background-color: var(--presssed-state);
   }
-  .menu-contacts {
-    display: flex;
-    gap: 12px;
-  }
-
   /*------------HERO-----------*/
   .hero-name {
     font-size: 56px;

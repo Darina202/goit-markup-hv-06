@@ -83,14 +83,16 @@ img {
 .header-logo {
   color: var(--dark);
 }
-
+.header-menu-list {
+  padding: 24px 0;
+}
 .header-text {
   color: var(--dark);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-text:hover,
@@ -179,9 +181,11 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
+.header-menu-list {
+  position: relative;
+}
 .current {
   color: var(--presssed-state);
-  position: relative;
 }
 .mob-mail-normal {
   font-style: normal;
